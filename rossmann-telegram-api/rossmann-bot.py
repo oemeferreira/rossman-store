@@ -61,7 +61,7 @@ def load_dataset( store_id ):
 
 def predict( data ):
     # API Call
-    url = 'https://rossmann-model-g24b.onrender.com/rossmann/predict'
+    url = 'https://rossmann-model.fly.dev/rossmann/predict'
     header = {'Content-type': 'application/json' }
     data = data
 
